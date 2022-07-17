@@ -46,9 +46,6 @@
 
 - p6df::modules::graphql::deps()
 - p6df::modules::graphql::external::brews()
-- p6df::modules::graphql::home::symlink()
-- p6df::modules::graphql::init()
-- p6df::modules::graphql::langs()
 - p6df::modules::graphql::vscodes()
 
 
