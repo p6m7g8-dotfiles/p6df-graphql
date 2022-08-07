@@ -21,6 +21,7 @@ p6df::modules::graphql::deps() {
 p6df::modules::graphql::vscodes() {
 
   code --install-extension GraphQL.vscode-graphql
+  code --install-extension GraphQL.vscode-graphql-syntax
 }
 
 ######################################################################
