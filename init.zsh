@@ -36,7 +36,7 @@ p6df::modules::graphql::vscodes() {
 ######################################################################
 p6df::modules::graphql::external::brews() {
 
-  brew install --cask graphiql
+  p6df::modules::homebrew::cli::brew::install --cask graphiql
 
   p6_return_void
 }
