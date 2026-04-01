@@ -54,5 +54,5 @@ p6df::modules::graphql::external::brews() {
 ######################################################################
 p6df::modules::graphql::profile::mod() {
 
-  p6_return_words 'graphql' '$GRAPHQL_ENDPOINT'
+  p6_return_words 'graphql' "$"
 }
