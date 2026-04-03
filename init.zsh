@@ -40,19 +40,3 @@ p6df::modules::graphql::external::brews() {
 
   p6_return_void
 }
-
-######################################################################
-#<
-#
-# Function: words graphql $GRAPHQL_ENDPOINT = p6df::modules::graphql::profile::mod()
-#
-#  Returns:
-#	words - graphql $GRAPHQL_ENDPOINT
-#
-#  Environment:	 GRAPHQL_ENDPOINT
-#>
-######################################################################
-p6df::modules::graphql::profile::mod() {
-
-  p6_return_words 'graphql' "$"
-}
