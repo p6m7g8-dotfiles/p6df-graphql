@@ -15,6 +15,19 @@ p6df::modules::graphql::deps() {
 ######################################################################
 #<
 #
+# Function: p6df::modules::graphql::external::brews()
+#
+#>
+######################################################################
+p6df::modules::graphql::external::brews() {
+
+  p6df::core::homebrew::cli::brew::install --cask graphiql
+
+  p6_return_void
+}
+######################################################################
+#<
+#
 # Function: p6df::modules::graphql::vscodes()
 #
 #>
@@ -27,16 +40,3 @@ p6df::modules::graphql::vscodes() {
   p6_return_void
 }
 
-######################################################################
-#<
-#
-# Function: p6df::modules::graphql::external::brews()
-#
-#>
-######################################################################
-p6df::modules::graphql::external::brews() {
-
-  p6df::core::homebrew::cli::brew::install --cask graphiql
-
-  p6_return_void
-}
